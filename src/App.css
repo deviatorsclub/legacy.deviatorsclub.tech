@@ -1,0 +1,18 @@
+/* Ensure the greeting-window is centered and occupies full viewport height */
+.greeting-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  transition: opacity 0.8s ease-out; 
+}
+
+.greeting-window.fade-out {
+  opacity: 0;
+}
+
+.greeting-text {
+  font-size: 2rem;
+  text-align: center;
+}
