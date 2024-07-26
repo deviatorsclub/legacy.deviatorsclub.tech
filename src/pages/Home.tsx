@@ -50,7 +50,7 @@ const Home: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-black text-white text-center font-medium overflow-hidden">
+    <div className="bg-black text-white text-center font-medium h-[200vh]">
       <div className="fixed inset-0" style={{ height: '200vh' }} ref={containerRef}>
         <section id="hero-section" className="relative h-screen">
           <img src={logo} alt="logo" className="h-60 w-60 mt-[-50px] absolute z-10"/>
@@ -63,10 +63,8 @@ const Home: React.FC = () => {
           <div className="absolute inset-0 flex flex-col justify-center text-white text-lg sm:text-xl md:text-2xl lg:text-3xl p-2 sm:p-5">
             <h1 className="text-9xl">DEVIATORS CLUB</h1>
           </div>
+
         </section>
-        <div className="w-screen h-screen">
-          {/* <Experience /> */}
-        </div>
       </div>
     </div>
   );

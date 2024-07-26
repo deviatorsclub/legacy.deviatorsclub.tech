@@ -1,0 +1,193 @@
+.body{
+    background-color: white;
+}
+
+.container{
+    height: 300vh;
+    position: relative;
+    .sticky{
+        position: sticky;
+        overflow: hidden;
+        top: 0;
+        height: 100vh;
+
+        .el{
+            width: 100%;
+            height: 100%;
+            top: 0;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .imageContainer{
+                position: relative;
+                top: -200px;
+                width: 30vw;
+                height: 30vh;
+                left: px;
+                img{
+                    object-fit: cover;
+                }
+            }
+            //deepika
+            &:nth-of-type(10){
+                .imageContainer{
+                    top: -40vh;
+                    left: -38vw;
+                    width: 15vw;
+                    height: 10vh;
+                    z-index: -1;
+                }
+            }
+            //ayush
+            &:nth-of-type(2){
+                .imageContainer{
+                    top: 12.5vh;
+                    left: -39.5vw;
+                    width: 14vw;
+                    height: 5vh;
+                    z-index: 1px;
+                }
+            }
+
+            //pooja
+            &:nth-of-type(4){
+                .imageContainer{
+                    top: -42.5vh;
+                    left: 35vw;
+                    width: 13vw;
+                    height: 5vh;
+                    // border-radius: 10cqmax;
+                }
+            }
+
+            //tanmay
+            &:nth-of-type(5){
+                .imageContainer{
+                    top: 22.5vh;
+                    left: 19vw;
+                    width: 15vw;
+                    height: 5vh;
+                }
+            }
+
+            //diksha
+            &:nth-of-type(6){
+                .imageContainer{
+                    top: -37vh;
+                    left: -27vw;
+                    width: 12vw;
+                    height: 7vh;
+                }
+            }
+            //kanak
+            &:nth-of-type(7){
+                .imageContainer{
+                    top: -44.5vh;
+                    left: 20vw;
+                    width: 12vw;
+                    height: 5vh;
+                }
+            }
+
+            //saurabh
+            &:nth-of-type(8){
+                .imageContainer{
+                    top: -12.5vh;
+                    left: 29vw;
+                    width: 12vw;
+                    height: 5vh;
+                }
+            }
+            
+            //divyansh
+            &:nth-of-type(9){
+                .imageContainer{
+                    top: -6vh;
+                    left: 39vw;
+                    width: 10vw;
+                    height: 5vh;
+                }
+            }
+            //vidushi
+            &:nth-of-type(3){
+                .imageContainer{
+                    top: -.5vh;
+                    left: -28vw;
+                    width: 12vw;
+                    height: 5vh;
+                }
+            }
+            
+            //dipti
+            &:nth-of-type(16){
+                .imageContainer{
+                    top: 16.5vh;
+                    left: -17.5vw;
+                    width: 11vw;
+                    height: 5vh;
+                }
+            }
+            //yash
+            &:nth-of-type(11){
+                .imageContainer{
+                    top: -34.5vh;
+                    left: -17.5vw;
+                    width: 12vw;
+                    height: 5vh;
+                }
+            }
+
+            //manas
+            &:nth-of-type(12){
+                .imageContainer{
+                    top: 15.5vh;
+                    left: 29vw;
+                    width: 9vw;
+                    height: 5vh;
+                }
+            }
+
+            // pulkit
+            &:nth-of-type(13){
+                .imageContainer{
+                    top: 16.5vh;
+                    left: vw;
+                    width: 19vw;
+                    height: 5vh;
+                }
+            }
+
+            //vivek
+            &:nth-of-type(14){
+                .imageContainer{
+                    top: -10.5vh;
+                    left: 18vw;
+                    width: 11vw;
+                    height: 5vh;
+                }
+            }
+
+            //kunal
+            &:nth-of-type(15){
+                .imageContainer{
+                    top: -7.5vh;
+                    left: -39vw;
+                    width: 12vw;
+                    height: 5vh;
+                    z-index: -1;
+                }
+            }
+
+            //kk
+            &:nth-of-type(17){
+                .imageContainer{
+                    top:-7.5vh;
+                    left: -15vw;
+                    width: 11vw;
+                    height: 5vh;
+                }
+            }
+        }
+    }
+}
