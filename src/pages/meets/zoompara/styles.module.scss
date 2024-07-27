@@ -5,12 +5,14 @@
 .container {
   height: 300vh;
   position: relative;
+  will-change: transform;
 
   .sticky {
     position: sticky;
     overflow: hidden;
     top: 0;
     height: 100vh;
+    will-change: transform;
 
     .el {
       width: 100%;
@@ -20,16 +22,19 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      will-change: transform, opacity;
 
       .imageContainer {
         position: relative;
         width: 20vw;
         height: 20vh;
+        will-change: transform, opacity;
 
         img {
           object-fit: cover;
           width: 100%;
           height: 100%;
+          // will-change: transform;
         }
       }
 
@@ -39,33 +44,33 @@
         .imageContainer {
           top: -170px;
           left: 0;
-          width: 27vw;
-          height: 37vh;
+          width: 26vw;
+          height: 35vh;
         }
       }
-      // ayush
-      &:nth-of-type(2) {
-        .imageContainer {
-          top: 27.5vh;
-          left: -39.5vw;
-          width: 15vw;
-          height: 30vh;
-        }
-      }
-      // vidushi
-      &:nth-of-type(3) {
-        .imageContainer {
-          top: 22.5vh;
-          left: -28vw;
-          width: 12vw;
-          height: 29vh;
-        }
-      }
-      // pooja
+       // ayush
+       &:nth-of-type(2) {
+         .imageContainer {
+           top: .5vh;
+           left: -39.5vw;
+           width: 14vw;
+           height: 30vh;
+         }
+       }
+      //tanmay // vidushi
+       &:nth-of-type(3) {
+         .imageContainer {
+           top: 22.5vh;
+           left: -28vw;
+           width: 14vw;
+           height: 29vh;
+         }
+       }
+      // pooja //diksha
       &:nth-of-type(4) {
         .imageContainer {
-          top: -30.5vh;
-          left: 35vw;
+          top: -8.5vh;
+          left: 23vw;
           width: 14vw;
           height: 30vh;
         }
@@ -73,22 +78,22 @@
       // tanmay
       &:nth-of-type(5) {
         .imageContainer {
-          top: 29.5vh;
-          left: 14vw;
-          width: 12vw;
+          top: 21.5vh;
+          left: 16vw;
+          width: 15vw;
+          height: 31.5vh;
+        }
+      }
+      // diksha //deepika
+      &:nth-of-type(6) {
+        .imageContainer {
+          top: -12vh;
+          left: -21vw;
+          width: 16vw;
           height: 33vh;
         }
       }
-      // diksha
-      &:nth-of-type(6) {
-        .imageContainer {
-          top: -27vh;
-          left: -27vw;
-          width: 13vw;
-          height: 28vh;
-        }
-      }
-      // kanak
+      // kanak //pulkit
       &:nth-of-type(7) {
         .imageContainer {
           top: -34.5vh;
@@ -97,98 +102,97 @@
           height: 25vh;
         }
       }
-      // saurabh
-      &:nth-of-type(8) {
-        .imageContainer {
-          top: -7.5vh;
-          left: 29vw;
-          width: 12vw;
-          height: 27vh;
+      // // saurabh //vivek
+       &:nth-of-type(8) {
+         .imageContainer {
+           top: -31.5vh;
+           left: 34vw;
+           width: 13vw;
+           height: 27vh;
+         }
+       }
+       //kunal // divyansh
+        &:nth-of-type(9) {
+          .imageContainer {
+            top: 17vh;
+            left: 39vw;
+            width: 15vw;
+            height: 31.5vh;
+          }
         }
-      }
-      // divyansh
-      &:nth-of-type(9) {
-        .imageContainer {
-          top: 16vh;
-          left: 39vw;
-          width: 15vw;
-          height: 36vh;
+       // deepika //kkbhatt
+       &:nth-of-type(10) {
+         .imageContainer {
+           top: -29vh;
+           left: -40vw;
+           width: 12vw;
+           height: 25.5vh;
+         }
+       }
+      // // yash
+       &:nth-of-type(11) {
+         .imageContainer {
+           top: -1.5vh;
+           left: -37.5vw;
+           width: 10.5vw;
+           height: 22vh;
+         }
+       }
+      // // manas
+       &:nth-of-type(12) {
+         .imageContainer {
+           top: 25.5vh;
+           left: 29vw;
+           width: 12vw;
+           height: 27vh;
         }
-      }
-      // deepika
-      &:nth-of-type(10) {
-        .imageContainer {
-          top: -26vh;
-          left: -40vw;
-          z-index: -1;
-          width: 14vw;
-          height: 35vh;
-        }
-      }
-      // yash
-      &:nth-of-type(11) {
-        .imageContainer {
-          top: -34.5vh;
-          left: -17.5vw;
-          width: 10vw;
-          height: 22vh;
-        }
-      }
-      // manas
-      &:nth-of-type(12) {
-        .imageContainer {
-          top: 25.5vh;
-          left: 29vw;
-          width: 12vw;
-          height: 27vh;
-        }
-      }
-      // pulkit
-      &:nth-of-type(13) {
-        .imageContainer {
-          top: 20.5vh;
-          left: 0vw;
-          width: 15vw;
-          height: 27vh;
-        }
-      }
-      // vivek
-      &:nth-of-type(14) {
-        .imageContainer {
-          top: -7.5vh;
-          left: 16vw;
-          width: 11vw;
-          height: 30vh;
-        }
-      }
-      // kunal
-      &:nth-of-type(15) {
-        .imageContainer {
-          top: -2.5vh;
-          left: -34vw;
-          z-index: -1;
-          width: 15vw;
-          height: 22vh;
-        }
-      }
-      // dipti
-      &:nth-of-type(16) {
-        .imageContainer {
-          top: 23.5vh;
-          left: -14.5vw;
-          width: 13vw;
-          height: 32vh;
-        }
-      }
-      // kkbhatt
-      &:nth-of-type(17) {
-        .imageContainer {
-          top: -7.5vh;
-          left: -18vw;
-          width: 13vw;
-          height: 27vh;
-        }
-      }
+       }
+       // pulkit
+       &:nth-of-type(13) {
+         .imageContainer {
+           top: 20.5vh;
+           left: 0vw;
+           width: 15vw;
+           height: 27vh;
+         }
+       }
+       // vivek
+       &:nth-of-type(14) {
+         .imageContainer {
+           top: -7.5vh;
+           left: 16vw;
+           width: 11vw;
+           height: 30vh;
+         }
+       }
+       // kunal
+       &:nth-of-type(15) {
+         .imageContainer {
+           top: -12.5vh;
+           left: -34vw;
+           z-index: -1;
+           width: 1vw !important;
+           height: 2vh;
+         }
+       }
+      // // dipti
+       &:nth-of-type(16) {
+         .imageContainer {
+           top: 23.5vh;
+           left: -14.5vw;
+           width: 13vw;
+           height: 32vh;
+         }
+       }
+       // kkbhatt
+       &:nth-of-type(17) {
+         .imageContainer {
+           top: -17.5vh;
+           left: -18vw;
+           width: 13vw;
+           height: 27vh;
+         }
+       }
     }
   }
 
@@ -260,51 +264,51 @@
       left: 20vw;
     }
   }
-  .el:nth-of-type(9) {
-    .imageContainer {
-      left: 30vw;
-    }
-  }
-  .el:nth-of-type(10) {
-    .imageContainer {
-      left: -30vw;
-    }
-  }
-  .el:nth-of-type(11) {
-    .imageContainer {
-      left: -15vw;
-    }
-  }
-  .el:nth-of-type(12) {
-    .imageContainer {
-      left: 20vw;
-    }
-  }
-  .el:nth-of-type(13) {
-    .imageContainer {
-      left: 0vw;
-    }
-  }
-  .el:nth-of-type(14) {
-    .imageContainer {
-      left: 10vw;
-    }
-  }
-  .el:nth-of-type(15) {
-    .imageContainer {
-      left: -30vw;
-    }
-  }
-  .el:nth-of-type(16) {
-    .imageContainer {
-      left: -15vw;
-    }
-  }
-  .el:nth-of-type(17) {
-    .imageContainer {
-      left: -10vw;
-    }
-  }
+   .el:nth-of-type(9) {
+     .imageContainer {
+       left: 30vw;
+     }
+   }
+  // .el:nth-of-type(10) {
+  //   .imageContainer {
+  //     left: -30vw;
+  //   }
+  // }
+  // .el:nth-of-type(11) {
+  //   .imageContainer {
+  //     left: -15vw;
+  //   }
+  // }
+  // .el:nth-of-type(12) {
+  //   .imageContainer {
+  //     left: 20vw;
+  //   }
+  // }
+  // .el:nth-of-type(13) {
+  //   .imageContainer {
+  //     left: 0vw;
+  //   }
+  // }
+  // .el:nth-of-type(14) {
+  //   .imageContainer {
+  //     left: 10vw;
+  //   }
+  // }
+  // .el:nth-of-type(15) {
+  //   .imageContainer {
+  //     left: -30vw;
+  //   }
+  // }
+  // .el:nth-of-type(16) {
+  //   .imageContainer {
+  //     left: -15vw;
+  //   }
+  // }
+  // .el:nth-of-type(17) {
+  //   .imageContainer {
+  //     left: -10vw;
+  //   }
+  // }
 }
 
 @media (max-width: 480px) {
@@ -330,7 +334,7 @@
       width: 18vw !important;
     }
   }
-  //vidushi
+  //vidushi //tanmay
   .el:nth-of-type(3) {
     .imageContainer {
       top: -12vh !important;
@@ -339,7 +343,7 @@
       width: 17vw !important;
     }
   }
-  //pooja
+  //pooja //ayush
   .el:nth-of-type(4) {
     .imageContainer {
       top: -42vh !important;
@@ -384,7 +388,7 @@
       width: 18vw !important;
     }
   }
-  //divyansh
+  // //divyansh
   .el:nth-of-type(9) {
     .imageContainer {
       top: -22.5vh !important;
@@ -393,77 +397,77 @@
       width: 18vw !important;
     }
   }
-  //deepika
-  .el:nth-of-type(10) {
-    .imageContainer {
-      top: -42vh !important;
-      left: -35vw !important;
-      height: 10vh !important;
-      width: 18vw !important;
-    }
-  }
-  //yash
-  .el:nth-of-type(11) {
-    .imageContainer {
-      top: -42vh !important;
-      left: -10vw !important;
-      height: 12vh !important;
-      width: 19vw !important;
-    }
-  }
-  //manas
-  .el:nth-of-type(12) {
-    .imageContainer {
-      top: -37vh !important;
-      left: 21vw !important;
-      height: 8vh !important;
-      width: 15vw !important;
-    }
-  }
+   //deepika
+   .el:nth-of-type(10) {
+     .imageContainer {
+       top: -42vh !important;
+       left: -35vw !important;
+       height: 10vh !important;
+       width: 18vw !important;
+     }
+   }
+   //yash
+   .el:nth-of-type(11) {
+     .imageContainer {
+       top: -42vh !important;
+       left: -10vw !important;
+       height: 12vh !important;
+       width: 19vw !important;
+     }
+   }
+   //manas
+   .el:nth-of-type(12) {
+     .imageContainer {
+       top: -37vh !important;
+       left: 21vw !important;
+       height: 8vh !important;
+       width: 15vw !important;
+     }
+   }
   //pulkit
-  .el:nth-of-type(13) {
+   .el:nth-of-type(13) {
+     .imageContainer {
+       top: -30vh !important;
+       left: 5vw;
+       height: 9vh !important;
+       width: 22vw !important;
+     }
+   }
+   //vivek
+   .el:nth-of-type(14) {
     .imageContainer {
-      top: -30vh !important;
-      left: 5vw;
-      height: 9vh !important;
-      width: 22vw !important;
-    }
-  }
-  //vivek
-  .el:nth-of-type(14) {
-    .imageContainer {
-      top: -28vh !important;
-      left: 22.5vw !important;
-      height: 10vh !important;
-      width: 18vw !important;
-    }
-  }
-  //kunal
-  .el:nth-of-type(15) {
-    .imageContainer {
-      top: -24vh !important;
-      left: -40vw !important;
-      height: 10vh !important;
-      width: 19vw !important;
-    }
-  }
-  //dipti
-  .el:nth-of-type(16) {
-    .imageContainer {
-      top: -14vh !important;
-      left: 38vw !important;
-      height: 11vh !important;
-      width: 19vw !important;
-    }
-  }
-  //kkbhatt
-  .el:nth-of-type(17) {
-    .imageContainer {
-      top: -23.5vh !important;
-      left: -25vw !important;
-      height: 10vh !important;
-      width: 18vw !important;
-      border-radius: 100% !important; 
-    }
-  }
+       top: -28vh !important;
+       left: 22.5vw !important;
+       height: 10vh !important;
+       width: 18vw !important;
+     }
+   }
+   //kunal
+   .el:nth-of-type(15) {
+     .imageContainer {
+       top: -24vh !important;
+       left: -40vw !important;
+       height: 10vh !important;
+       width: 19vw !important;
+     }
+   }
+   //dipti
+   .el:nth-of-type(16) {
+     .imageContainer {
+       top: -14vh !important;
+       left: 38vw !important;
+       height: 11vh !important;
+       width: 19vw !important;
+     }
+   }
+   //kkbhatt
+   .el:nth-of-type(17) {
+     .imageContainer {
+       top: -23.5vh !important;
+       left: -25vw !important;
+       height: 10vh !important;
+       width: 18vw !important;
+       border-radius: 100% !important; 
+     }
+   }
 }
