@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import About from './pages/Aboutus'
 // import Team from './pages/Meetteam'
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 import Meets from "./pages/meets/zoompara/Index";
 import Nav from "./components/header/Nav";
 import "./App.css";
@@ -51,7 +51,7 @@ function App() {
           <div>
             <Nav />
             <Routes>
-              {/* <Route path="/" element={<Home />} />  */}
+              <Route path="/" element={<Home />} /> 
              
               {/* <Route path="/about" element={<About />} /> */}
               {/* <Route path="/team" element={<Team />} />    */}

@@ -1,193 +1,147 @@
-.body{
+.body {
     background-color: white;
-}
-
-.container{
+  }
+  
+  .container {
     height: 300vh;
     position: relative;
-    .sticky{
-        position: sticky;
-        overflow: hidden;
+  
+    .sticky {
+      position: sticky;
+      overflow: hidden;
+      top: 0;
+      height: 100vh;
+  
+      .el {
+        width: 100%;
+        height: 100%;
         top: 0;
-        height: 100vh;
-
-        .el{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        .imageContainer {
+          position: relative;
+          width: 20vw;
+          height: 20vh;
+  
+          img {
+            object-fit: cover;
             width: 100%;
             height: 100%;
-            top: 0;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            .imageContainer{
-                position: relative;
-                top: -200px;
-                width: 30vw;
-                height: 30vh;
-                left: px;
-                img{
-                    object-fit: cover;
-                }
-            }
-            //deepika
-            &:nth-of-type(10){
-                .imageContainer{
-                    top: -40vh;
-                    left: -38vw;
-                    width: 15vw;
-                    height: 10vh;
-                    z-index: -1;
-                }
-            }
-            //ayush
-            &:nth-of-type(2){
-                .imageContainer{
-                    top: 12.5vh;
-                    left: -39.5vw;
-                    width: 14vw;
-                    height: 5vh;
-                    z-index: 1px;
-                }
-            }
-
-            //pooja
-            &:nth-of-type(4){
-                .imageContainer{
-                    top: -42.5vh;
-                    left: 35vw;
-                    width: 13vw;
-                    height: 5vh;
-                    // border-radius: 10cqmax;
-                }
-            }
-
-            //tanmay
-            &:nth-of-type(5){
-                .imageContainer{
-                    top: 22.5vh;
-                    left: 19vw;
-                    width: 15vw;
-                    height: 5vh;
-                }
-            }
-
-            //diksha
-            &:nth-of-type(6){
-                .imageContainer{
-                    top: -37vh;
-                    left: -27vw;
-                    width: 12vw;
-                    height: 7vh;
-                }
-            }
-            //kanak
-            &:nth-of-type(7){
-                .imageContainer{
-                    top: -44.5vh;
-                    left: 20vw;
-                    width: 12vw;
-                    height: 5vh;
-                }
-            }
-
-            //saurabh
-            &:nth-of-type(8){
-                .imageContainer{
-                    top: -12.5vh;
-                    left: 29vw;
-                    width: 12vw;
-                    height: 5vh;
-                }
-            }
-            
-            //divyansh
-            &:nth-of-type(9){
-                .imageContainer{
-                    top: -6vh;
-                    left: 39vw;
-                    width: 10vw;
-                    height: 5vh;
-                }
-            }
-            //vidushi
-            &:nth-of-type(3){
-                .imageContainer{
-                    top: -.5vh;
-                    left: -28vw;
-                    width: 12vw;
-                    height: 5vh;
-                }
-            }
-            
-            //dipti
-            &:nth-of-type(16){
-                .imageContainer{
-                    top: 16.5vh;
-                    left: -17.5vw;
-                    width: 11vw;
-                    height: 5vh;
-                }
-            }
-            //yash
-            &:nth-of-type(11){
-                .imageContainer{
-                    top: -34.5vh;
-                    left: -17.5vw;
-                    width: 12vw;
-                    height: 5vh;
-                }
-            }
-
-            //manas
-            &:nth-of-type(12){
-                .imageContainer{
-                    top: 15.5vh;
-                    left: 29vw;
-                    width: 9vw;
-                    height: 5vh;
-                }
-            }
-
-            // pulkit
-            &:nth-of-type(13){
-                .imageContainer{
-                    top: 16.5vh;
-                    left: vw;
-                    width: 19vw;
-                    height: 5vh;
-                }
-            }
-
-            //vivek
-            &:nth-of-type(14){
-                .imageContainer{
-                    top: -10.5vh;
-                    left: 18vw;
-                    width: 11vw;
-                    height: 5vh;
-                }
-            }
-
-            //kunal
-            &:nth-of-type(15){
-                .imageContainer{
-                    top: -7.5vh;
-                    left: -39vw;
-                    width: 12vw;
-                    height: 5vh;
-                    z-index: -1;
-                }
-            }
-
-            //kk
-            &:nth-of-type(17){
-                .imageContainer{
-                    top:-7.5vh;
-                    left: -15vw;
-                    width: 11vw;
-                    height: 5vh;
-                }
-            }
+          }
         }
+  
+        // Adjustments for each image based on nth-of-type
+        //logo
+        &:nth-of-type(1) { .imageContainer { top: -170px; left: 0; width: 27vw; height: 37vh; } }
+        //ayush
+        &:nth-of-type(2) { .imageContainer { top: 27.5vh; left: -39.5vw; width:15vw; height: 30vh;} }
+        //vidushi
+        &:nth-of-type(3) { .imageContainer { top: 22.5vh; left: -28vw; width: 12vw; height: 29vh; } }
+        //pooja
+        &:nth-of-type(4) { .imageContainer { top: -30.5vh; left: 35vw; width: 14vw; height: 30vh; } }
+        //tanmay
+        &:nth-of-type(5) { .imageContainer { top: 26.5vh; left: 14vw; width: 12vw; height: 35vh; } }
+        //diksha
+        &:nth-of-type(6) { .imageContainer { top: -27vh; left: -27vw; width: 13vw; height: 28vh; } }
+        //kanak
+        &:nth-of-type(7) { .imageContainer { top: -34.5vh; left: 17vw ;width:12vw; height: 25vh; } }
+        //saurabh
+        &:nth-of-type(8) { .imageContainer { top: -7.5vh; left: 29vw;width: 12vw; height: 27vh; } }
+        //divyansh
+        &:nth-of-type(9) { .imageContainer { top: 16vh; left: 39vw; width: 15vw; height: 36vh;} }
+        //deepika
+        &:nth-of-type(10) { .imageContainer { top: -26vh; left: -40vw; z-index: -1; width: 14vw; height: 35vh; } }
+        //yash
+        &:nth-of-type(11) { .imageContainer { top: -34.5vh; left: -17.5vw; width: 10vw; height: 22vh; } }
+        //manas
+        &:nth-of-type(12) { .imageContainer { top: 25.5vh; left: 29vw; width: 12vw; height: 27vh; } }
+        //pulkit
+        &:nth-of-type(13) { .imageContainer { top: 20.5vh; left: 0vw; width: 15vw; height: 27vh; } }
+        //vivek
+        &:nth-of-type(14) { .imageContainer { top: -7.5vh; left: 16vw; width: 11vw; height: 30vh; } }
+        //kunal
+        &:nth-of-type(15) { .imageContainer { top: -2.5vh; left: -34vw; z-index: -1; width: 15vw; height: 22vh; } }
+        //dipti
+        &:nth-of-type(16) { .imageContainer { top: 23.5vh; left: -14.5vw; width: 13vw; height: 32vh; } }
+        //kkbhatt
+        &:nth-of-type(17) { .imageContainer { top: -7.5vh; left: -18vw; width: 13vw; height: 27vh;} }
+      }
     }
-}
+  
+    .newSection {
+      margin-top: 100vh;
+      padding: 20px;
+      background-color: #f0f0f0;
+      text-align: center;
+  
+      h2 {
+        margin: 0;
+        padding: 10px;
+      }
+  
+      p {
+        margin: 0;
+        padding: 10px;
+      }
+    }
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 1200px) {
+    .imageContainer {
+      width: 18vw;
+      height: 18vh;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .imageContainer {
+      width: 15vw;
+      height: 15vh;
+    }
+  
+    .el:nth-of-type(2) { .imageContainer { left: -30vw; } }
+    .el:nth-of-type(3) { .imageContainer { left: -20vw; } }
+    .el:nth-of-type(4) { .imageContainer { left: 25vw; } }
+    .el:nth-of-type(5) { .imageContainer { left: 15vw; } }
+    .el:nth-of-type(6) { .imageContainer { left: -20vw; } }
+    .el:nth-of-type(7) { .imageContainer { left: 15vw; } }
+    .el:nth-of-type(8) { .imageContainer { left: 20vw; } }
+    .el:nth-of-type(9) { .imageContainer { left: 30vw; } }
+    .el:nth-of-type(10) { .imageContainer { left: -30vw; } }
+    .el:nth-of-type(11) { .imageContainer { left: -15vw; } }
+    .el:nth-of-type(12) { .imageContainer { left: 20vw; } }
+    .el:nth-of-type(13) { .imageContainer { left: 0vw; } }
+    .el:nth-of-type(14) { .imageContainer { left: 10vw; } }
+    .el:nth-of-type(15) { .imageContainer { left: -30vw; } }
+    .el:nth-of-type(16) { .imageContainer { left: -15vw; } }
+    .el:nth-of-type(17) { .imageContainer { left: -10vw; } }
+  }
+  
+  @media (max-width: 480px) {
+    .imageContainer {
+      width: 12vw;
+      height: 12vh;
+    }
+  
+    .el:nth-of-type(2) { .imageContainer { left: -20vw; } }
+    .el:nth-of-type(3) { .imageContainer { left: -10vw; } }
+    .el:nth-of-type(4) { .imageContainer { left: 15vw; } }
+    .el:nth-of-type(5) { .imageContainer { left: 10vw; } }
+    .el:nth-of-type(6) { .imageContainer { left: -10vw; } }
+    .el:nth-of-type(7) { .imageContainer { left: 10vw; } }
+    .el:nth-of-type(8) { .imageContainer { left: 15vw; } }
+    .el:nth-of-type(9) { .imageContainer { left: 20vw; } }
+    .el:nth-of-type(10) { .imageContainer { left: -20vw; } }
+    .el:nth-of-type(11) { .imageContainer { left: -10vw; } }
+    .el:nth-of-type(12) { .imageContainer { left: 15vw; } }
+    .el:nth-of-type(13) { .imageContainer { left: 0vw; } }
+    .el:nth-of-type(14) { .imageContainer { left: 5vw; } }
+    .el:nth-of-type(15) { .imageContainer { left: -20vw; } }
+    .el:nth-of-type(16) { .imageContainer { left: -10vw; } }
+    .el:nth-of-type(17) { .imageContainer { left: -5vw; } }
+  }
+  
