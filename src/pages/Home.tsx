@@ -1,9 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import back from "../assets/v882-kul-55.jpg";
 import logo from "../assets/Dev_logo[1].png";
-import AboutUs from "./Aboutus";
-import Meetus from "./meets/zoompara/Index";
-
 import "./Home.css";
 
 const Home: React.FC = () => {
@@ -51,7 +48,7 @@ const Home: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-black text-white text-center font-medium h-[200vh]">
+    <div className="bg-black text-white text-center font-medium h-[100vh]">
       <div
         className="fixed inset-0"
         style={{ height: "200vh" }}

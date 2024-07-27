@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
+// @ts-expect-error ts-migrate(2307) FIXME: Cannot find module '../anim'.
 import { menuSlide } from "../anim"; // Make sure this path is correct
 import Link from "./Link"; // Adjust the import path if needed
 import Curve from "./Curve"; // Adjust the import path if needed
