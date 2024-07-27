@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import styles from './style.module.scss';
-import { slide, scale } from '../../anim';
+import React from "react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import styles from "./style.module.scss";
+import { slide, scale } from "../../anim";
 
 export default function Index({ data, isActive, setSelectedIndicator }) {
   const { title, href, index } = data;
@@ -21,7 +21,7 @@ export default function Index({ data, isActive, setSelectedIndicator }) {
     >
       <motion.div
         variants={scale}
-        animate={isActive ? 'open' : 'closed'}
+        animate={isActive ? "open" : "closed"}
         className={styles.indicator}
       ></motion.div>
       <Link to={href}>{title}</Link>

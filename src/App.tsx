@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Meets from "./pages/meets/zoompara/Index";
 import Nav from "./components/header/Nav";
+import AboutUs from "./pages/Aboutus";
 import "./App.css";
 
 function App() {
@@ -45,18 +46,23 @@ function App() {
       <div className="bg-black h-full">
         {showGreeting ? (
           <div id="greeting-window" className="greeting-window z-10">
-            <h1 className="greeting-text bg-black text-white">{greetings[greetingIndex]}</h1>
+            <h1 className="greeting-text bg-black text-white">
+              {greetings[greetingIndex]}
+            </h1>
           </div>
         ) : (
           <div>
             <Nav />
             <Routes>
-              <Route path="/" element={<Home />} /> 
-             
+              <Route path="/" element={<Home />} />
+
               {/* <Route path="/about" element={<About />} /> */}
               {/* <Route path="/team" element={<Team />} />    */}
+              <Route path="/about" element={<AboutUs />} />
               <Route path="/meets" element={<Meets />} />
             </Routes>
+            <AboutUs />
+            <Meets />
           </div>
         )}
       </div>

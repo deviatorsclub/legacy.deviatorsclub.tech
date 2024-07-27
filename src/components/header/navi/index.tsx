@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { useLocation } from 'react-router-dom';
-import { menuSlide } from '../anim'; // Make sure this path is correct
-import Link from './Link'; // Adjust the import path if needed
-import Curve from './Curve'; // Adjust the import path if needed
-import Footer from './footer'; // Adjust the import path if needed
-import styles from './style.module.scss';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { useLocation } from "react-router-dom";
+import { menuSlide } from "../anim"; // Make sure this path is correct
+import Link from "./Link"; // Adjust the import path if needed
+import Curve from "./Curve"; // Adjust the import path if needed
+import Footer from "./footer"; // Adjust the import path if needed
+import styles from "./style.module.scss";
 
 const navItems = [
   {
@@ -13,12 +13,12 @@ const navItems = [
     href: "/",
   },
   {
-    title: "Work",
-    href: "/work",
-  },
-  {
     title: "About",
     href: "/about",
+  },
+  {
+    title: "Our Team",
+    href: "/meets",
   },
   {
     title: "Contact",
