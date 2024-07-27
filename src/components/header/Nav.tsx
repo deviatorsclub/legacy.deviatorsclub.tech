@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
 import styles from "./style.module.scss";
@@ -22,7 +22,7 @@ export default function Home() {
 
   useEffect(() => {
     if (isActive) setIsActive(false);
-  }, [location.pathname]);
+  }, [isActive, location.pathname]);
 
   const toggleActive = () => {
     setIsActive(!isActive);

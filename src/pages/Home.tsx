@@ -1,9 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import back from "../assets/v882-kul-55.jpg";
 import logo from "../assets/Dev_logo[1].png";
-import AboutUs from "./Aboutus";
-import Meetus from "./meets/zoompara/Index";
-
 import "./Home.css";
 
 const Home: React.FC = () => {

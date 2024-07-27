@@ -1,9 +1,6 @@
-// src/AboutUs.tsx
-import React from "react";
-
 const AboutUs = () => {
   return (
-    <div className="about-us font-sans bg-gradient-to-b from-black via-gray-900 to-black text-white pb-[200px]">
+    <div className="about-us font-sans bg-gradient-to-b from-black via-gray-900 to-black text-white mt-[100vh]">
       <div
         className="h-96 flex flex-col justify-center items-center text-center bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url(/path/to/image1.jpg)" }}

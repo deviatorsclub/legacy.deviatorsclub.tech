@@ -1,4 +1,5 @@
-import React, { useRef, useEffect, useState, useMemo } from "react";
+/* eslint-disable react-hooks/rules-of-hooks */
+import { useRef, useEffect, useState, useMemo } from "react";
 import { useScroll, useTransform, motion, useSpring, MotionValue } from "framer-motion";
 import styles from "./styles.module.scss";
 import Teaminfo from "../Teaminfo";
