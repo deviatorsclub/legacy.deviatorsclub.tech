@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import About from './pages/Aboutus'
-// import Team from './pages/Meetteam'
 import Home from "./pages/Home";
 import Meets from "./pages/meets/zoompara/Index";
 import Nav from "./components/header/Nav";
@@ -31,9 +29,8 @@ function App() {
         document.getElementById("greeting-window")?.classList.add("fade-out");
         setTimeout(() => {
           setShowGreeting(false);
-        }, 1000); // Duration matching the CSS transition time
-      }, greetings.length * 300); // Total duration before starting fade-out
-
+        }, 1000);
+      }, greetings.length * 300);
       return () => {
         clearInterval(intervalId);
         clearTimeout(timeoutId);
@@ -55,9 +52,6 @@ function App() {
             <Nav />
             <Routes>
               <Route path="/" element={<Home />} />
-
-              {/* <Route path="/about" element={<About />} /> */}
-              {/* <Route path="/team" element={<Team />} />    */}
               <Route path="/about" element={<AboutUs />} />
               <Route path="/meets" element={<Meets />} />
             </Routes>

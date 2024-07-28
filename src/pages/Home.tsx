@@ -66,7 +66,9 @@ const Home: React.FC = () => {
             src={logo}
             alt="logo"
             className="xl:h-72 xl:w-72 z-10 absolute xl:left-2 xl:top-[-42px] 2xl:h-72 2xl:w-72 2xl:z-10 2xl:left-2 2xl:top-[-52px] md:h-56 md:w-56 md:top-[-33px] md:left-3 sm:h-44 sm:w-44 sm:left-[5px] lg:h-72 lg:w-72 lg:z-10 lg:left-2 lg:top-[-52px] h-36 w-36"
-          />h-20 w-20 sm:h-[120px] sm:w-[120px] md:h-60 md:w-60 absolute z-10 top-4 left-4 sm:top-8 sm:left-8
+          />
+          h-20 w-20 sm:h-[120px] sm:w-[120px] md:h-60 md:w-60 absolute z-10
+          top-4 left-4 sm:top-8 sm:left-8
           <img
             src={back}
             className="h-full w-full absolute inset-0 object-cover bg-fixed parallax-bg"
@@ -80,10 +82,7 @@ const Home: React.FC = () => {
           </div>
         </section>
       </div>
-      {windowWidth > 768 && (
-        <div className="h-[1000vh]">
-        </div>
-      )}
+      {windowWidth > 768 && <div className="h-[1000vh]"></div>}
     </div>
   );
 };

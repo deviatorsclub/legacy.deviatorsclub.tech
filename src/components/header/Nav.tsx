@@ -15,17 +15,18 @@ export default function Home() {
     };
 
     window.addEventListener("resize", handleResize);
-    handleResize(); // Call once to set initial state
+    handleResize();
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   useEffect(() => {
     if (isActive) setIsActive(false);
-  }, [isActive, location.pathname]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [location.pathname]);
 
   const toggleActive = () => {
-    setIsActive(!isActive);
+    setIsActive((prev) => !prev);
   };
 
   return (
