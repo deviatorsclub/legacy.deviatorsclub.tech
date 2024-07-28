@@ -10,12 +10,19 @@ const AboutUs = () => {
             Welcome to Deviators
           </h1>
           <p className="mt-4 text-lg md:text-xl lg:text-xl xl:w-[70%]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-            veritatis debitis fuga eaque totam eveniet voluptatum quibusdam,
-            explicabo et delectus dicta corrupti temporibus ipsa quae. Dolores
-            culpa beatae mollitia ea natus. Nihil pariatur inventore veritatis
-            adipisci debitis voluptatum. Architecto non repellat tempora numquam
-            eveniet omnis dolor praesentium doloribus, in amet.
+            Welcome to DEVIATORS… The coolest tech haven on the campus! We are a
+            group of tech enthusiasts diving deep into the world of technology
+            and having a blast while doing it.
+            <br />
+            Whether you’re a newbie or a seasoned coder, we provide a playground
+            for all, where innovation thrives, ideas are shared and everybody
+            debates on “It’s a feature not a Bug”. Join us, explore, innovate,
+            while making memories and let's push the boundaries of what's
+            possible together!
+            <br />
+            “HelloWorld!”
+            <br />
+            -Every typical engineer
           </p>
         </div>
       </div>
@@ -24,7 +31,7 @@ const AboutUs = () => {
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           Our Mission
           <div className="text-xl flex flex-wrap justify-center items-center">
-            {Array(5)
+            {Array(6)
               .fill(0)
               .map((_, index) => (
                 <div

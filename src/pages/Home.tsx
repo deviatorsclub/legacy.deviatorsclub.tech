@@ -6,6 +6,7 @@ import AboutUs from "./Aboutus";
 import Meets from "./meets/zoompara/Index";
 import Footer from "../components/Footer";
 
+
 const Home: React.FC = () => {
   const bgRef = useRef<HTMLImageElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -52,7 +53,7 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <div className="bg-black text-white text-center font-medium h-screen">
+      <div className="bg-black text-white text-center font-medium h-[75vh]">
         <div
           className="fixed inset-0"
           // style={{ height: "100vh" }}

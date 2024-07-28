@@ -64,6 +64,7 @@
            left: -28vw;
            width: 14vw;
            height: 29vh;
+           border-radius: 50% !important;
          }
        }
       // pooja //diksha
@@ -73,6 +74,7 @@
           left: 23vw;
           width: 14vw;
           height: 30vh;
+          border-radius: 50% !important;
         }
       }
       // tanmay
@@ -321,80 +323,80 @@
     .imageContainer {
       top: -50vh;
       left: 0;
-      width: 35vw;
+      width: 25vw!important;
       height: 19vh !important;
     }
   }
-  //ayush
+  //ayush //pooja
   .el:nth-of-type(2) {
     .imageContainer {
       top: -10vh !important;
-      left: -50vw;
+      left: -37vw !important;
       height: 10vh !important;
-      width: 18vw !important;
+      width: 22vw !important;
     }
   }
   //vidushi //tanmay
   .el:nth-of-type(3) {
     .imageContainer {
-      top: -12vh !important;
-      left: -23vw !important;
+      top: -32vh !important;
+      left: -17vw !important;
       height: 10vh !important;
-      width: 17vw !important;
+      width: 21vw !important;
     }
   }
-  //pooja //ayush
+  //pooja //diksha
   .el:nth-of-type(4) {
     .imageContainer {
       top: -42vh !important;
       left: 39vw !important;
       height: 10vh !important;
-      width: 18vw !important;
+      width: 21vw !important;
     }
   }
-  //tanmay
+  //tanmay //kanak
   .el:nth-of-type(5) {
     .imageContainer {
-      top: -18vh !important;
-      left: 20vw !important;
+      top: -13vh !important;
+      left: 29vw !important;
       height: 10vh !important;
       height: 10vh !important;
     }
   }
-  //diksha
+  //diksha //deepika
   .el:nth-of-type(6) {
     .imageContainer {
-      top: -34vh !important;
-      left: -28vw !important;
+      top: -41vh !important;
+      left: -32vw !important;
       height: 10vh !important;
-      width: 20vw !important;
+      width: 21vw !important;
     }
   }
-  //kanak
+  //kanak //vivek
   .el:nth-of-type(7) {
     .imageContainer {
       top: -41vh !important;
       left: 10vw !important;
       height: 11vh !important;
-      width: 17vw !important;
+      width: 24vw !important;
     }
   }
-  //saurabh
+  //saurabh //kunal
   .el:nth-of-type(8) {
     .imageContainer {
-      top: -32.5vh !important;
-      left: 39vw !important;
+      top: -29.5vh !important;
+      left: 37vw !important;
       height: 10vh !important;
-      width: 18vw !important;
+      width: 22vw !important;
     }
   }
-  // //divyansh
+  // //divyansh //kkbhatt
   .el:nth-of-type(9) {
     .imageContainer {
       top: -22.5vh !important;
-      left: 35vw;
-      height: 12vh !important;
-      width: 18vw !important;
+      left: -33vw !important;
+      height: 10vh !important;
+      width: 22vw !important;
     }
   }
    //deepika

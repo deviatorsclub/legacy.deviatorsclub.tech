@@ -12,14 +12,14 @@ import Teaminfo from "../Teaminfo";
 
 // Import all your images
 import Picture1 from "../../../assets/devfinallogo.png";
-import Picture4 from "../../../assets/team/pooja.webp";
-import Picture5 from "../../../assets/team/tanmay.webp";
-import Picture6 from "../../../assets/team/diksha.webp";
-import Picture7 from "../../../assets/team/kanak.webp";
-import Picture10 from "../../../assets/team/deepika.webp";
-import Picture14 from "../../../assets/team/vivek.webp";
-import Picture15 from "../../../assets/team/kunal.webp";
-import Picture17 from "../../../assets/team/kk.webp";
+import Picture4 from "../../../assets/rounded team/RoundedPooja.jpg";
+import Picture5 from "../../../assets/rounded team/RoundedTanmay.jpg";
+import Picture6 from "../../../assets/rounded team/RoundedDiksha.jpg";
+import Picture7 from "../../../assets/rounded team/Roundedkanak.jpg";
+import Picture10 from "../../../assets/rounded team/RoundedDeepika.png";
+import Picture14 from "../../../assets/rounded team/RoundedVivek.jpg";
+import Picture15 from "../../../assets/rounded team/RoundedKunal.jpg";
+import Picture17 from "../../../assets/rounded team/Roundedkk.jpg";
 
 interface Picture {
   src: string;
@@ -66,7 +66,7 @@ export default function Index() {
     () => [
       { src: Picture1, alt: "Logo", scale: createScale(15) },
       { src: Picture4, alt: "Pooja", scale: createScale(6) },
-      { src: Picture5, alt: "Tanmay", scale: createScale(11) },
+      { src: Picture5, alt: "Tanmay", scale: createScale(16) },
       { src: Picture6, alt: "Diksha", scale: createScale(8) },
       { src: Picture7, alt: "Kanak", scale: createScale(9) },
       { src: Picture10, alt: "Deepika", scale: createScale(12) },
