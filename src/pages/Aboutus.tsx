@@ -10,7 +10,7 @@ const AboutUs = () => {
             Welcome to Our Club
           </h1>
           <p className="mt-4 text-lg md:text-xl lg:text-2xl">
-            Our club is dedicated to...
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis debitis fuga eaque totam eveniet voluptatum quibusdam, explicabo et delectus dicta corrupti temporibus ipsa quae. Dolores culpa beatae mollitia ea natus. Nihil pariatur inventore veritatis adipisci debitis voluptatum. Architecto non repellat tempora numquam eveniet omnis dolor praesentium doloribus, in amet.
           </p>
         </div>
       </div>
@@ -20,7 +20,7 @@ const AboutUs = () => {
           Our Mission
         </h2>
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300">
-          To provide a space for...
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis debitis fuga eaque totam eveniet voluptatum quibusdam, explicabo et delectus dicta corrupti temporibus ipsa quae. Dolores culpa beatae mollitia ea natus. Nihil pariatur inventore veritatis adipisci debitis voluptatum. Architecto non repellat tempora numquam eveniet omnis dolor praesentium doloribus, in amet.
         </p>
       </section>
 
@@ -33,7 +33,7 @@ const AboutUs = () => {
             Our Activities
           </h2>
           <p className="mt-4 text-lg md:text-xl lg:text-2xl">
-            We engage in various activities...
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis debitis fuga eaque totam eveniet voluptatum quibusdam, explicabo et delectus dicta corrupti temporibus ipsa quae. Dolores culpa beatae mollitia ea natus. Nihil pariatur inventore veritatis adipisci debitis voluptatum. Architecto non repellat tempora numquam eveniet omnis dolor praesentium doloribus, in amet.
           </p>
         </div>
       </div>

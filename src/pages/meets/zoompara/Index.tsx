@@ -11,15 +11,15 @@ import styles from "./styles.module.scss";
 import Teaminfo from "../Teaminfo";
 
 // Import all your images
-import Picture1 from "./images/deviators.webp";
-import Picture4 from "./images/pooja.webp";
-import Picture5 from "./images/tanmay.webp";
-import Picture6 from "./images/diksha.webp";
-import Picture7 from "./images/kanak.webp";
-import Picture10 from "./images/deepika.webp";
-import Picture14 from "./images/vivek.webp";
-import Picture15 from "./images/kunal.webp";
-import Picture17 from "./images/kkb.webp";
+import Picture1 from "../../../assets/devfinallogo.png";
+import Picture4 from "../../../assets/team/pooja.webp";
+import Picture5 from "../../../assets/team/tanmay.webp";
+import Picture6 from "../../../assets/team/diksha.webp";
+import Picture7 from "../../../assets/team/kanak.webp";
+import Picture10 from "../../../assets/team/deepika.webp";
+import Picture14 from "../../../assets/team/vivek.webp";
+import Picture15 from "../../../assets/team/kunal.webp";
+import Picture17 from "../../../assets/team/kk.webp";
 
 interface Picture {
   src: string;

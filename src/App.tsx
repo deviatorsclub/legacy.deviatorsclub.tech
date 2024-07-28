@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import Home from "./pages/Home";
-import Meets from "./pages/meets/zoompara/Index";
 import Nav from "./components/header/Nav";
-import AboutUs from "./pages/Aboutus";
 import "./App.css";
 
 function App() {
@@ -52,11 +55,8 @@ function App() {
             <Nav />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/about" element={<AboutUs />} />
-              <Route path="/meets" element={<Meets />} />
+              <Route path="*" element={<Navigate to={"/"} />} />
             </Routes>
-            <AboutUs />
-            <Meets />
           </div>
         )}
       </div>
