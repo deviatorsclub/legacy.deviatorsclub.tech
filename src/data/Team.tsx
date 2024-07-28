@@ -25,7 +25,6 @@ export default [
       github: "https://github.com/kanakOS01",
       linkedin: "https://www.linkedin.com/in/kanak-tanwar",
       twitter: "twitter.com",
-      portfolio: "https://kanakos01.github.io",
     },
     image: kanak,
   },
@@ -99,6 +98,10 @@ export default [
     position: "Design Team",
     intro:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quisquam fugiat eum nulla, accusamus rerum.",
+    urls: {
+      linkedin: "https://www.linkedin.com/in/pooja-goel-19a9b2241/",
+      github: "https://github.com/Freya2005",
+    },
     image: Pooja,
   },
   {
@@ -152,6 +155,10 @@ export default [
     position: "DSA Team",
     intro:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quisquam fugiat eum nulla, accusamus rerum.",
+    urls: {
+      github: "https://github.com/Hero-Alpha",
+      linkedin: "https://www.linkedin.com/in/yash-kumar-4a936426b/",
+    },
     image: Yash,
   },
   {
@@ -170,6 +177,10 @@ export default [
     position: "DSA Team",
     intro:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quisquam fugiat eum nulla, accusamus rerum.",
+    urls: {
+      github: "https://github.com/DiptiChahar",
+      linkedin: " https://www.linkedin.com/in/dipti-chahar-948a26247/",
+    },
     image: Dipti,
   },
   {
@@ -177,6 +188,10 @@ export default [
     position: "DSA Team",
     intro:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quisquam fugiat eum nulla, accusamus rerum.",
+    urls: {
+      github: "https://github.com/coderizzz",
+      linkedin: "https://www.linkedin.com/in/divyansh-sethi-035b7b25b",
+    },
     image: Divyansh,
   },
 ];
