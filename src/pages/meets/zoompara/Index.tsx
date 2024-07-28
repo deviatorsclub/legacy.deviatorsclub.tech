@@ -17,7 +17,7 @@ import Picture7 from "./images/kanak.jpg";
 import Picture10 from "./images/deepika.png";
 // import Picture11 from "./images/yash.jpg";
 // import Picture12 from "./images/manas.jpg";
-import Picture13 from "./images/pulkit.jpg";
+// import Picture13 from "./images/pulkit.jpg";
 import Picture14 from "./images/vivek.jpg";
 import Picture15 from "./images/kunal.jpg";
 // import Picture16 from "./images/dipti.jpg";
@@ -70,7 +70,7 @@ export default function Index() {
     { src: Picture10, alt: "Deepika", scale: createScale(12) },
     // { src: Picture11, alt: "Yash", scale: createScale(13) },
     // { src: Picture12, alt: "Manas", scale: createScale(14) },
-    { src: Picture13, alt: "Pulkit", scale: createScale(15) },
+    // { src: Picture13, alt: "Pulkit", scale: createScale(15) },
     { src: Picture14, alt: "Vivek", scale: createScale(6) },
     { src: Picture15, alt: "Kunal", scale: createScale(6) },
     // { src: Picture16, alt: "Dipti", scale: createScale(16) },
