@@ -20,6 +20,7 @@ import Picture10 from "../../../assets/rounded team/RoundedDeepika.png";
 import Picture14 from "../../../assets/rounded team/RoundedVivek.jpg";
 import Picture15 from "../../../assets/rounded team/RoundedKunal.jpg";
 import Picture17 from "../../../assets/rounded team/Roundedkk.jpg";
+import Footer from "../../../components/Footer";
 
 interface Picture {
   src: string;
@@ -44,11 +45,14 @@ export default function Index() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const getScaleFactor = useCallback((baseScale: number) => {
-    if (screenWidth < 480) return baseScale * 0.5;
-    if (screenWidth < 768) return baseScale * 0.75;
-    return baseScale;
-  }, [screenWidth]);
+  const getScaleFactor = useCallback(
+    (baseScale: number) => {
+      if (screenWidth < 480) return baseScale * 0.5;
+      if (screenWidth < 768) return baseScale * 0.75;
+      return baseScale;
+    },
+    [screenWidth],
+  );
 
   const createScale = useCallback(
     (baseScale: number) => {
@@ -78,7 +82,7 @@ export default function Index() {
   );
 
   return (
-    <div ref={container} className={styles.container}>
+    <div ref={container} className={`${styles.container}`}>
       <div className={styles.sticky}>
         {pictures.map(({ src, alt, scale }, index) => (
           <motion.div
@@ -103,6 +107,7 @@ export default function Index() {
       <div className={styles.newSection}>
         <div>
           <Teaminfo />
+          <Footer />
         </div>
       </div>
     </div>

@@ -4,7 +4,6 @@ import logo from "../assets/Dev_logo[1].png";
 import "./Home.css";
 import AboutUs from "./Aboutus";
 import Meets from "./meets/zoompara/Index";
-import Footer from "../components/Footer";
 
 
 const Home: React.FC = () => {
@@ -81,7 +80,6 @@ const Home: React.FC = () => {
       </div>
       <AboutUs />
       <Meets />
-      <Footer />
     </>
   );
 };

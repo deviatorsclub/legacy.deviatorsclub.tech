@@ -22,7 +22,7 @@ function Teaminfo() {
             >
               <span>
                 <img
-                  className="w-full max-h-[500px] rounded-lg sm:rounded-none"
+                  className="w-[200px] h-[200px] object-cover rounded-lg sm:rounded-none"
                   src={member.image}
                   alt="Bonnie Avatar"
                 />
