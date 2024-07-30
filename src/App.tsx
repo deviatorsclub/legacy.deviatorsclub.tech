@@ -14,6 +14,7 @@ function App() {
   const [greetingIndex, setGreetingIndex] = useState(0);
   const greetings = [
     "Welcome",
+    "नमस्ते",
     "Bienvenue",
     "Willkommen",
     "Bienvenido",
