@@ -12,14 +12,14 @@ import Teaminfo from "../Teaminfo";
 
 // Import all your images
 import Picture1 from "../../../assets/devfinallogo.png";
-import Picture4 from "../../../assets/rounded team/RoundedPooja.jpg";
-import Picture5 from "../../../assets/rounded team/RoundedTanmay.jpg";
-import Picture6 from "../../../assets/rounded team/RoundedDiksha.jpg";
-import Picture7 from "../../../assets/rounded team/Roundedkanak.jpg";
-import Picture10 from "../../../assets/rounded team/RoundedDeepika.png";
-import Picture14 from "../../../assets/rounded team/RoundedVivek.jpg";
-import Picture15 from "../../../assets/rounded team/RoundedKunal.jpg";
-import Picture17 from "../../../assets/rounded team/Roundedkk.jpg";
+import Picture4 from "../../../assets/rounded team/RoundedPooja.webp";
+import Picture5 from "../../../assets/rounded team/RoundedTanmay.webp";
+import Picture6 from "../../../assets/rounded team/RoundedDiksha.webp";
+import Picture7 from "../../../assets/rounded team/Roundedkanak.webp";
+import Picture10 from "../../../assets/rounded team/RoundedDeepika.webp";
+import Picture14 from "../../../assets/rounded team/RoundedVivek.webp";
+import Picture15 from "../../../assets/rounded team/RoundedKunal.webp";
+import Picture17 from "../../../assets/rounded team/Roundedkk.webp";
 import Footer from "../../../components/Footer";
 
 interface Picture {
