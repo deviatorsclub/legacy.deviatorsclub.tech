@@ -1,3 +1,7 @@
+body{
+  scroll-behavior: smooth;
+}
+
 /* Ensure the greeting-window is centered and occupies full viewport height */
 .greeting-window {
   display: flex;

@@ -5,7 +5,6 @@ import "./Home.css";
 import AboutUs from "./Aboutus";
 import Meets from "./meets/zoompara/Index";
 
-
 const Home: React.FC = () => {
   const bgRef = useRef<HTMLImageElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -52,12 +51,8 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <div className="bg-black text-white text-center font-medium h-[75vh]">
-        <div
-          className="fixed inset-0"
-          // style={{ height: "100vh" }}
-          ref={containerRef}
-        >
+      <div id="home" className="bg-black text-white text-center font-medium h-[75vh]">
+        <div className="fixed inset-0" ref={containerRef}>
           <section id="hero-section" className="relative h-screen">
             <img
               src={logo}

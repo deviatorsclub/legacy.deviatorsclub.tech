@@ -47,7 +47,7 @@ export default function Home() {
             style={isMobile ? { width: "100%" } : {}}
           >
             <div className={styles.body}>
-              <Nav />
+              <Nav toggleActive={toggleActive} />
             </div>
           </div>
         )}

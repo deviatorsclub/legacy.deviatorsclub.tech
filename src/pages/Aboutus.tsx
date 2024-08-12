@@ -1,6 +1,8 @@
+import AboutPoints from "../data/About";
+
 const AboutUs = () => {
   return (
-    <div className="about-us font-sans from-black text-white mt-[100vh]">
+    <div className="about-us font-sans from-black text-white mt-[100vh]" id="about">
       <div className="h-96 flex flex-col justify-center items-center text-center bg-cover bg-center bg-no-repeat">
         <div className="bg-black bg-opacity-60 w-full h-full flex flex-col justify-center items-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
@@ -19,10 +21,12 @@ const AboutUs = () => {
             debates on “It’s a feature not a Bug”. Join us, explore, innovate,
             while making memories and let's push the boundaries of what's
             possible together!
-            <br />
-            “HelloWorld!”
-            <br />
-            -Every typical engineer
+            <p className="text-left">
+              <br />
+              “HelloWorld!”
+              <br />
+              -Every typical engineer
+            </p>
           </p>
         </div>
       </div>
@@ -31,24 +35,15 @@ const AboutUs = () => {
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           Our Mission
           <div className="text-xl flex flex-wrap justify-center items-center">
-            {Array(6)
-              .fill(0)
-              .map((_, index) => (
-                <div
-                  key={index}
-                  className="text-xl flex flex-col w-[400px] m-20"
-                >
-                  <div className="flex justify-center text-4xl space-x-2 opacity-70">
-                    <p>01</p>
-                    <h2>Briefing</h2>
-                  </div>
-                  <p className="text-base">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Modi possimus sint dolorum qui voluptates natus dolore
-                    praesentium, deserunt eligendi eos!
-                  </p>
+            {AboutPoints.map((item, index) => (
+              <div key={index} className="text-xl flex flex-col w-[400px] m-20">
+                <div className="flex justify-center text-4xl space-x-2 opacity-70">
+                  <p>01</p>
+                  <h2>{item.title}</h2>
                 </div>
-              ))}
+                <p className="text-base min-h-28">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </h2>
       </section>

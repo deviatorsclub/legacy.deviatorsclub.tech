@@ -19,8 +19,7 @@ export default [
   {
     name: "Kanak Tanwar",
     position: "Leader & AI lead",
-    intro:
-      "Can code in any language (if chatgpt is accessible)",
+    intro: "Can code in any language (if chatgpt is accessible)",
     urls: {
       github: "https://github.com/kanakOS01",
       linkedin: "https://www.linkedin.com/in/kanak-tanwar",
@@ -31,8 +30,7 @@ export default [
   {
     name: "Vivek Chahal",
     position: "Vice President",
-    intro:
-      "Interested in technology which no one uses.",
+    intro: "Interested in technology which no one uses.",
     urls: {
       github: "https://github.com/Vivek09Chahal",
       linkedin: "https://www.linkedin.com/in/vivekchahal09/",
@@ -42,8 +40,7 @@ export default [
   {
     name: "Pulkit",
     position: "Chairperson & Web Lead",
-    intro:
-      "Can recite tech specs in his sleep and dreams in binary code",
+    intro: "Born to be CEO of Google, forced to be chairperson of Deviators",
     urls: {
       github: "https://github.com/pulkitxm",
       linkedin: "https://www.linkedin.com/in/pulkit-dce",
@@ -55,19 +52,17 @@ export default [
   {
     name: "Krishna Kartikay Bhatt",
     position: "Events Lead & Cloud Lead",
-    intro:
-      "Likes to put computer aside and talk about national duty",
+    intro: "Likes to put computer aside and talk about national duty",
     urls: {
-      linkedin: "https://www.linkedin.com/in/krishna-kartikay-bhatt/",
       github: "https://github.com/kkbhatt07",
+      linkedin: "https://www.linkedin.com/in/krishna-kartikay-bhatt/",
     },
     image: KK,
   },
   {
     name: "Ayush Goyal",
     position: "Volunteer Coordinator & Web Team",
-    intro:
-      "Recruiter and intern at same company",
+    intro: "Recruiter and intern at same company",
     image: Ayush,
     urls: {
       github: "https://github.com/AayushhGoyal",
@@ -78,8 +73,7 @@ export default [
   {
     name: "Deepika Anand",
     position: "Women in Tech Lead",
-    intro:
-      "Is a member of Dead Poets Society…until the alarm goes off.",
+    intro: "Is a member of Dead Poets Society…until the alarm goes off.",
     urls: {
       github: "https://github.com/deepikaa0402",
       linkedin: "www.linkedin.com/in/deepika-anand-4a371a26b",
@@ -91,31 +85,29 @@ export default [
     position: "Design lead",
     intro:
       "An engineering student by profession, a cat whisperer by obsesssion.",
-      urls: {
-        github: "https://github.com/diksha1504",
-        linkedin: "https://www.linkedin.com/in/diksha-sharma-6b43a5213/",
-      },
+    urls: {
+      github: "https://github.com/diksha1504",
+      linkedin: "https://www.linkedin.com/in/diksha-sharma-6b43a5213/",
+    },
     image: Diksha,
   },
   {
     name: "Pooja Goel",
     position: "Design Team",
-    intro:
-      "Likes to keep her glasses foggy to ignore the world.",
+    intro: "Likes to keep her glasses foggy to ignore the world.",
     urls: {
-      linkedin: "https://www.linkedin.com/in/pooja-goel-19a9b2241/",
       github: "https://github.com/Freya2005",
+      linkedin: "https://www.linkedin.com/in/pooja-goel-19a9b2241/",
     },
     image: Pooja,
   },
   {
     name: "Manas Thakur",
     position: "AIML Team",
-    intro:
-      "Prefers work over sleep and sleep over coffee.",
+    intro: "Prefers work over sleep and sleep over coffee.",
     urls: {
-      linkedin: "https://www.linkedin.com/in/manasthakur30/",
       github: "https://github.com/Manas-thakur",
+      linkedin: "https://www.linkedin.com/in/manasthakur30/",
       twitter: "https://x.com/Menace_thakur",
     },
     image: Manas,
@@ -123,11 +115,10 @@ export default [
   {
     name: "Vidushi Anand",
     position: "AIML Team",
-    intro:
-      "Pray for my delulus to come true.",
+    intro: "Pray for my delulus to come true.",
     urls: {
-      linkedin: "https://www.linkedin.com/in/vidushi-anand-49420928a",
       github: "https://github.com/Vidushi2709",
+      linkedin: "https://www.linkedin.com/in/vidushi-anand-49420928a",
       twitter: "https://x.com/Vidushi_Anand_",
     },
     image: Vidushi,
@@ -135,8 +126,7 @@ export default [
   {
     name: "Kunal Verma",
     position: "Photography & Social Media",
-    intro:
-      "A unique fusion of dancer and coder.",
+    intro: "A unique fusion of dancer and coder.",
     urls: {
       github: "https://www.github.com/kunalverma06",
       linkedin: "https://www.linkedin.com/in/kunal-verma-528431291",
@@ -149,16 +139,15 @@ export default [
     intro:
       "I'm like a bug in the matrix, but instead of being fixed, I add more bugs (and caffeine)!",
     urls: {
-      linkedin: "https://www.linkedin.com/in/tanmayverma190605",
       github: "https://github.com/Tanmay1906",
+      linkedin: "https://www.linkedin.com/in/tanmayverma190605",
     },
     image: Tanmay,
   },
   {
     name: "Yash Kumar",
     position: "DSA Team",
-    intro:
-      "Lost a staring competition with his dog once.",
+    intro: "Lost a staring competition with his dog once.",
     urls: {
       github: "https://github.com/Hero-Alpha",
       linkedin: "https://www.linkedin.com/in/yash-kumar-4a936426b/",
@@ -168,8 +157,7 @@ export default [
   {
     name: "Saurabh Singh",
     position: "DSA Team",
-    intro:
-      "Call for DSA support...or if your car breaks down.",
+    intro: "Call for DSA support...or if your car breaks down.",
     urls: {
       github: "https://github.com/sa1-1rabh",
       linkedin: "https://www.linkedin.com/in/sa1-1rabh",
@@ -179,8 +167,7 @@ export default [
   {
     name: "Dipti Chahar",
     position: "DSA Team",
-    intro:
-      "Smashes DSA problems and shuttles with equal flair.",
+    intro: "Smashes DSA problems and shuttles with equal flair.",
     urls: {
       github: "https://github.com/DiptiChahar",
       linkedin: " https://www.linkedin.com/in/dipti-chahar-948a26247/",

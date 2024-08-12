@@ -82,7 +82,7 @@ export default function Index() {
   );
 
   return (
-    <div ref={container} className={`${styles.container}`}>
+    <div id="meets" ref={container} className={`${styles.container}`}>
       <div className={styles.sticky}>
         {pictures.map(({ src, alt, scale }, index) => (
           <motion.div

@@ -11,22 +11,26 @@ const navItems = [
   {
     title: "Home",
     href: "/",
+    element: "home",
   },
   {
     title: "About",
     href: "/about",
+    element: "about",
   },
   {
     title: "Our Team",
     href: "/meets",
+    element: "meets",
   },
   {
     title: "Contact",
     href: "/contact",
+    element: "footer",
   },
 ];
 
-export default function Index() {
+export default function Index({ toggleActive }: { toggleActive: () => void }) {
   const location = useLocation();
   const [selectedIndicator, setSelectedIndicator] = useState(location.pathname);
 
@@ -52,6 +56,7 @@ export default function Index() {
               data={{ ...data, index }}
               isActive={selectedIndicator === data.href}
               setSelectedIndicator={setSelectedIndicator}
+              toggleActive={toggleActive}
             />
           ))}
         </div>

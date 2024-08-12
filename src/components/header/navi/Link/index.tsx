@@ -7,12 +7,19 @@ export default function Index({
   data,
   isActive,
   setSelectedIndicator,
+  toggleActive,
 }: {
-  data: { title: string; href: string; index: number };
+  data: {
+    title: string;
+    element: string;
+    href: string;
+    index: number;
+  };
   isActive: boolean;
   setSelectedIndicator: (arg0: string) => void;
+  toggleActive: () => void;
 }) {
-  const { title, href, index } = data;
+  const { title, href, element, index } = data;
 
   return (
     <motion.div
@@ -31,7 +38,15 @@ export default function Index({
         animate={isActive ? "open" : "closed"}
         className={styles.indicator}
       ></motion.div>
-      <Link to={href}>{title}</Link>
+      <Link
+        to={""}
+        onClick={() => {
+          document.getElementById(element)?.scrollIntoView({ behavior: "smooth" });
+          toggleActive();
+        }}
+      >
+        {title}
+      </Link>
     </motion.div>
   );
 }
