@@ -31,14 +31,14 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <section className="py-12 px-4 text-center">
+      <section className="py-12 px-4 text-center mt-20">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           Our Mission
           <div className="text-xl flex flex-wrap justify-center items-center">
             {AboutPoints.map((item, index) => (
-              <div key={index} className="text-xl flex flex-col w-[400px] m-20">
+              <div key={index} className="text-xl flex flex-col w-[400px] m-10 md:m-20">
                 <div className="flex justify-center text-4xl space-x-2 opacity-70">
-                  <p>01</p>
+                  <p>0{index+1}</p>
                   <h2>{item.title}</h2>
                 </div>
                 <p className="text-base min-h-28">{item.desc}</p>

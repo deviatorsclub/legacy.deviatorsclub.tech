@@ -22,16 +22,16 @@ function Teaminfo() {
             >
               <span>
                 <img
-                  className="w-[200px] min-w-[200px] h-[200px] object-cover rounded-lg sm:rounded-none"
+                  className="mx-auto w-[200px] min-w-[200px] h-[200px] object-cover rounded-lg sm:rounded-none"
                   src={member.image}
                   alt="Bonnie Avatar"
                 />
               </span>
-              <div className="p-5">
+              <div className="p-5 mx-auto">
                 <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                   {member.name}
                 </h3>
-                <span className="text-gray-500 dark:text-gray-400">
+                <span className="text-gray-500 dark:text-gray-400 underline">
                   {member.position}
                 </span>
                 <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">

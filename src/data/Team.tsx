@@ -23,7 +23,7 @@ export default [
     urls: {
       github: "https://github.com/kanakOS01",
       linkedin: "https://www.linkedin.com/in/kanak-tanwar",
-      twitter: "twitter.com",
+      twitter: "https://x.com/kanaktwts",
     },
     image: kanak,
   },
@@ -34,6 +34,7 @@ export default [
     urls: {
       github: "https://github.com/Vivek09Chahal",
       linkedin: "https://www.linkedin.com/in/vivekchahal09/",
+      twitter: "https://x.com/vivekchahal09",
     },
     image: Vivek,
   },
