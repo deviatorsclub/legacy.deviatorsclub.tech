@@ -9,7 +9,7 @@ export default [
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/company/deviatorsclub",
+    url: "https://www.linkedin.com/company/deviators-club",
   },
   {
     name: "Whatsapp",

@@ -2,7 +2,10 @@ import AboutPoints from "../data/About";
 
 const AboutUs = () => {
   return (
-    <div className="about-us font-sans from-black text-white mt-[100vh]" id="about">
+    <div
+      className="about-us font-sans from-black text-white mt-[100vh]"
+      id="about"
+    >
       <div className="h-96 flex flex-col justify-center items-center text-center bg-cover bg-center bg-no-repeat">
         <div className="bg-black bg-opacity-60 w-full h-full flex flex-col justify-center items-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
@@ -21,12 +24,6 @@ const AboutUs = () => {
             debates on “It’s a feature not a Bug”. Join us, explore, innovate,
             while making memories and let's push the boundaries of what's
             possible together!
-            <p className="text-left">
-              <br />
-              “HelloWorld!”
-              <br />
-              -Every typical engineer
-            </p>
           </p>
         </div>
       </div>
@@ -36,9 +33,12 @@ const AboutUs = () => {
           Our Mission
           <div className="text-xl flex flex-wrap justify-center items-center">
             {AboutPoints.map((item, index) => (
-              <div key={index} className="text-xl flex flex-col w-[400px] m-10 md:m-20">
-                <div className="flex justify-center text-4xl space-x-2 opacity-70">
-                  <p>0{index+1}</p>
+              <div
+                key={index}
+                className="text-xl flex flex-col w-[400px] m-10 md:m-20"
+              >
+                <div className="flex justify-center text-3xl space-x-2 opacity-70">
+                  <p>0{index + 1}</p>
                   <h2>{item.title}</h2>
                 </div>
                 <p className="text-base min-h-28">{item.desc}</p>

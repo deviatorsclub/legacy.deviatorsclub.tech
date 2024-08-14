@@ -53,7 +53,7 @@ export default [
   },
   {
     name: "Krishna Kartikay Bhatt",
-    position: "Events Lead & Cloud Lead",
+    position: "Events lead & Cyber Security Lead",
     intro: "Likes to put computer aside and talk about national duty",
     urls: {
       github: "https://github.com/kkbhatt07",
@@ -189,7 +189,7 @@ export default [
   },
   {
     name: "Bhavya Kataria",
-    position: "Scoial Media",
+    position: "Social Media",
     intro: "Not on tinder, but you can find me on discord",
     urls: {
       github: "https://www.github.com/damnbhavya",

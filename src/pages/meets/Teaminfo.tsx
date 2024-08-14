@@ -4,7 +4,7 @@ import Team from "../../data/Team";
 function Teaminfo() {
   return (
     <section className="bg-black dark:bg-black">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Our Team
@@ -15,57 +15,63 @@ function Teaminfo() {
           </p>
         </div>
         <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-          {Team.map((member, index) => (
-            <div
-              key={index}
-              className="items-center bg-gray-50 shadow sm:flex dark:bg-gray-800 dark:border-gray-700 rounded-xl overflow-hidden"
-            >
-              <span>
-                <img
-                  className="mx-auto w-[200px] min-w-[200px] h-[200px] object-cover rounded-lg sm:rounded-none"
-                  src={member.image}
-                  alt="Bonnie Avatar"
-                />
-              </span>
-              <div className="p-5 mx-auto">
-                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  {member.name}
-                </h3>
-                <span className="text-gray-500 dark:text-gray-400 underline">
-                  {member.position}
+          {Team.map((member, index) => {
+            const isLastOddItem =
+              index === Team.length - 1 && Team.length % 2 !== 0;
+            return (
+              <div
+                key={index}
+                className={`items-center bg-gray-50 shadow sm:flex dark:bg-gray-800 dark:border-gray-700 rounded-xl overflow-hidden ${
+                  isLastOddItem ? "md:col-span-2 justify-self-center" : ""
+                }`}
+              >
+                <span>
+                  <img
+                    className="mx-auto w-[200px] min-w-[200px] h-[200px] object-cover rounded-lg sm:rounded-none"
+                    src={member.image}
+                    alt="Bonnie Avatar"
+                  />
                 </span>
-                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  {member.intro}
-                </p>
-                <ul className="flex items-center justify-center space-x-4 sm:mt-0">
-                  {member.urls &&
-                    Object.keys(member.urls).map((key, index) => {
-                      const typeOfLink = key as keyof typeof member.urls;
-                      const link = member.urls[typeOfLink];
-                      if (link)
-                        return (
-                          <li key={index} className="z-50">
-                            <Link
-                              target="_blank"
-                              to={link}
-                              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-                            >
-                              {
+                <div className="p-5 mx-auto">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    {member.name}
+                  </h3>
+                  <span className="text-gray-500 dark:text-gray-400 underline">
+                    {member.position}
+                  </span>
+                  <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+                    {member.intro}
+                  </p>
+                  <ul className="flex items-center justify-center space-x-4 sm:mt-0">
+                    {member.urls &&
+                      Object.keys(member.urls).map((key, index) => {
+                        const typeOfLink = key as keyof typeof member.urls;
+                        const link = member.urls[typeOfLink];
+                        if (link)
+                          return (
+                            <li key={index} className="z-50">
+                              <Link
+                                target="_blank"
+                                to={link}
+                                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                              >
                                 {
-                                  github: <GithubIcon />,
-                                  twitter: <TwitterIcon />,
-                                  linkedin: <IconLinkedin />,
-                                  portfolio: <IconWeb />,
-                                }[typeOfLink]
-                              }
-                            </Link>
-                          </li>
-                        );
-                    })}
-                </ul>
+                                  {
+                                    github: <GithubIcon />,
+                                    twitter: <TwitterIcon />,
+                                    linkedin: <IconLinkedin />,
+                                    portfolio: <IconWeb />,
+                                  }[typeOfLink]
+                                }
+                              </Link>
+                            </li>
+                          );
+                      })}
+                  </ul>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
