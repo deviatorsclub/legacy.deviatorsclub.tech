@@ -14,6 +14,7 @@ import Dipti from "../assets/team/dipti.webp";
 import Divyansh from "../assets/team/divyansh.webp";
 import Saurabh from "../assets/team/saurabh.webp";
 import Yash from "../assets/team/yash.webp";
+import Bhavya from "../assets/team/bhavya.webp";
 
 export default [
   {
@@ -185,5 +186,15 @@ export default [
       linkedin: "https://www.linkedin.com/in/divyansh-sethi-035b7b25b",
     },
     image: Divyansh,
+  },
+  {
+    name: "Bhavya Kataria",
+    position: "Scoial Media",
+    intro: "Not on tinder, but you can find me on discord",
+    urls: {
+      github: "https://www.github.com/damnbhavya",
+      linkedin: "https://www.linkedin.com/in/katariabhavya",
+    },
+    image: Bhavya,
   },
 ];
