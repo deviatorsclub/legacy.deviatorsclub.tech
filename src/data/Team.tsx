@@ -137,7 +137,7 @@ export default [
   },
   {
     name: "Tanmay Verma",
-    position: "Photography & Social Media",
+    position: "Photography, Social Media & Web Team",
     intro:
       "I'm like a bug in the matrix, but instead of being fixed, I add more bugs (and caffeine)!",
     urls: {
