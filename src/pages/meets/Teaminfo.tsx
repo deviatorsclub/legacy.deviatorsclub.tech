@@ -32,9 +32,16 @@ function Teaminfo() {
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     {member.name}
                   </h3>
-                  <span className="text-gray-500 dark:text-gray-400 underline">
-                    {member.position}
-                  </span>
+                  <div>
+                    {member.roles.map((role, index) => (
+                      <span
+                        key={index}
+                        className="inline-block px-2 py-1 mt-1 mr-2 text-sm font-semibold text-gray-800 bg-gray-200 dark:bg-gray-700 dark:text-gray-200 rounded-lg"
+                      >
+                        {role}
+                      </span>
+                    ))}
+                  </div>
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
                     {member.intro}
                   </p>

@@ -19,7 +19,7 @@ import Bhavya from "../assets/team/bhavya.webp";
 export default [
   {
     name: "Kanak Tanwar",
-    position: "Leader & AI lead",
+    roles: ["Club Lead", "AI lead"],
     intro: "Can code in any language (if chatgpt is accessible)",
     urls: {
       github: "https://github.com/kanakOS01",
@@ -30,7 +30,7 @@ export default [
   },
   {
     name: "Vivek Chahal",
-    position: "Vice President",
+    roles: ["Co-lead", "AI team"],
     intro: "Interested in technology which no one uses.",
     urls: {
       github: "https://github.com/Vivek09Chahal",
@@ -41,7 +41,7 @@ export default [
   },
   {
     name: "Pulkit",
-    position: "Chairperson & Web Lead",
+    roles: ["Chairperson", "Web lead"],
     intro: "Born to be CEO of Google, forced to be chairperson of Deviators",
     urls: {
       github: "https://github.com/pulkitxm",
@@ -53,7 +53,7 @@ export default [
   },
   {
     name: "Krishna Kartikay Bhatt",
-    position: "Events lead & Cyber Security Lead",
+    roles: ["Cyber Security Lead", "Event management"],
     intro: "Likes to put computer aside and talk about national duty",
     urls: {
       github: "https://github.com/kkbhatt07",
@@ -63,7 +63,7 @@ export default [
   },
   {
     name: "Ayush Goyal",
-    position: "Volunteer Coordinator & Web Team",
+    roles: ["Event management Lead", "Team Coordinator", "Web Team"],
     intro: "Recruiter and intern at same company",
     image: Ayush,
     urls: {
@@ -74,7 +74,7 @@ export default [
   },
   {
     name: "Deepika Anand",
-    position: "Women in Tech Lead",
+    roles: ["Women in Tech Lead", "Event management"],
     intro: "Is a member of Dead Poets Society…until the alarm goes off.",
     urls: {
       github: "https://github.com/deepikaa0402",
@@ -84,7 +84,7 @@ export default [
   },
   {
     name: "Diksha Sharma",
-    position: "Design lead",
+    roles: ["UI/UX Lead", "Women in Tech"],
     intro:
       "An engineering student by profession, a cat whisperer by obsesssion.",
     urls: {
@@ -95,7 +95,7 @@ export default [
   },
   {
     name: "Pooja Goel",
-    position: "Design Team",
+    roles: ["Web Team", "UI/UX Team", "Women in Tech"],
     intro: "Likes to keep her glasses foggy to ignore the world.",
     urls: {
       github: "https://github.com/Freya2005",
@@ -105,7 +105,7 @@ export default [
   },
   {
     name: "Manas Thakur",
-    position: "AIML Team",
+    roles: ["AI team"],
     intro: "Prefers work over sleep and sleep over coffee.",
     urls: {
       github: "https://github.com/Manas-thakur",
@@ -116,7 +116,7 @@ export default [
   },
   {
     name: "Vidushi Anand",
-    position: "AIML Team",
+    roles: ["AI team", "Women in Tech"],
     intro: "Pray for my delulus to come true.",
     urls: {
       github: "https://github.com/Vidushi2709",
@@ -127,7 +127,7 @@ export default [
   },
   {
     name: "Kunal Verma",
-    position: "Photography & Social Media",
+    roles: ["Social Media", "Web Team"],
     intro: "A unique fusion of dancer and coder.",
     urls: {
       github: "https://www.github.com/kunalverma06",
@@ -137,7 +137,7 @@ export default [
   },
   {
     name: "Tanmay Verma",
-    position: "Photography, Social Media & Web Team",
+    roles: ["Social Media", "Web Team"],
     intro:
       "I'm like a bug in the matrix, but instead of being fixed, I add more bugs (and caffeine)!",
     urls: {
@@ -148,7 +148,7 @@ export default [
   },
   {
     name: "Yash Kumar",
-    position: "DSA Team",
+    roles: ["DSA team", "Event management"],
     intro: "Lost a staring competition with his dog once.",
     urls: {
       github: "https://github.com/Hero-Alpha",
@@ -158,7 +158,7 @@ export default [
   },
   {
     name: "Saurabh Singh",
-    position: "DSA Team",
+    roles: ["DSA team"],
     intro: "Call for DSA support...or if your car breaks down.",
     urls: {
       github: "https://github.com/sa1-1rabh",
@@ -168,7 +168,7 @@ export default [
   },
   {
     name: "Dipti Chahar",
-    position: "DSA Team",
+    roles: ["DSA team", "Women in Tech"],
     intro: "Smashes DSA problems and shuttles with equal flair.",
     urls: {
       github: "https://github.com/DiptiChahar",
@@ -178,7 +178,7 @@ export default [
   },
   {
     name: "Divyansh Sethi",
-    position: "DSA Team",
+    roles: ["DSA team", "Event management"],
     intro:
       "Lives in Choomantar Gali and has applied to get into Hogwarts 235 times.",
     urls: {
@@ -189,7 +189,7 @@ export default [
   },
   {
     name: "Bhavya Kataria",
-    position: "Social Media",
+    roles: ["Social Media"],
     intro: "Not on tinder, but you can find me on discord",
     urls: {
       github: "https://www.github.com/damnbhavya",
