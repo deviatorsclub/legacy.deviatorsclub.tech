@@ -1,30 +1,30 @@
 import { Metadata } from "next";
 
 export const metaDataBase: Metadata = {
-  title: "Deviators Club | Explore Innovative Ideas and Collaborate",
+  title: "Deviators Club Legacy - Archive",
   description:
-    "Join Deviators Club to explore groundbreaking ideas, collaborate with innovative minds, and transform concepts into reality. Connect with fellow creators and entrepreneurs.",
+    "Legacy archive of Deviators Club. For current content, please visit the new website.",
   keywords:
-    "innovation, collaboration, creative ideas, entrepreneurship, startup community, idea exploration, DCE tech community",
+    "legacy, archive, old version",
   authors: [{ name: "Deviators Club DCE" }],
   creator: "Deviators Club DCE",
   publisher: "Deviators Club DCE",
-  metadataBase: new URL("https://deviatorsdce.tech"),
+  metadataBase: new URL("https://legacy.deviatorsclub.tech"),
   alternates: {
-    canonical: "/",
+    canonical: "https://deviatorsclub.tech",
   },
   openGraph: {
-    title: "Deviators Club | Explore Innovative Ideas and Collaborate",
+    title: "Deviators Club Legacy - Archive",
     description:
-      "Join Deviators Club to explore groundbreaking ideas, collaborate with innovative minds, and transform concepts into reality.",
-    url: "https://deviatorsdce.tech",
-    siteName: "Deviators Club DCE",
+      "Legacy archive of Deviators Club. For current content, please visit the new website.",
+    url: "https://legacy.deviatorsclub.tech",
+    siteName: "Deviators Club DCE Legacy",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Deviators Club DCE - Where Innovation Meets Collaboration",
+        alt: "Deviators Club DCE Legacy Archive",
       },
     ],
     locale: "en_US",
@@ -32,22 +32,26 @@ export const metaDataBase: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Deviators Club | Explore Innovative Ideas and Collaborate",
+    title: "Deviators Club Legacy - Archive",
     description:
-      "Join Deviators Club to explore groundbreaking ideas, collaborate with innovative minds, and transform concepts into reality.",
+      "Legacy archive of Deviators Club. For current content, please visit the new website.",
     images: ["/og-image.jpg"],
     creator: "@deviatorsdce",
     site: "@deviatorsdce",
   },
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
+    noarchive: true,
+    nosnippet: true,
     googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+      index: false,
+      follow: false,
+      noarchive: true,
+      nosnippet: true,
+      "max-video-preview": 0,
+      "max-image-preview": "none",
+      "max-snippet": 0,
     },
   },
 };
